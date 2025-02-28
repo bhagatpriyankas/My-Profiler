@@ -1,0 +1,100 @@
+/* About Section */
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.about-section {
+    z-index: -99;
+    /* width: 80%; */
+    /* max-width: 1000px; */
+    /* margin: 50px auto;
+    padding: 50px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(80deg, #6a11cb, #2575fc);
+    animation: fadeIn 1.5s ease-in-out;
+    padding: 20px;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.skill {
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.skill:hover {
+    background: #ff9900;
+    transform: scale(1.1);
+}
+
+/* Education & Work Experience Section */
+.timeline {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.timeline-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border-left: 5px solid #ffcc00;
+    transition: 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+.timeline-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}

@@ -1,0 +1,72 @@
+/* Hero Section */
+.hero {
+    z-index: -99;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(80deg, #6a11cb, #2575fc);
+    animation: fadeIn 1.5s ease-in-out;
+    padding: 20px;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    animation: slideDown 1.5s ease-in-out;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Call-to-Action Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #ffcc00;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(255, 204, 0, 0.5);
+    animation: pulse 2s infinite;
+}
+
+.btn:hover {
+    background: #ff9900;
+    transform: scale(1.1);
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ffcc00;
+}
