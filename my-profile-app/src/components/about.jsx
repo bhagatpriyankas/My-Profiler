@@ -44,6 +44,7 @@ function About() {
             <div class="timeline-item">
                 <h3>Web Development Intern | XYZ Software</h3>
                 <p>2022 - 2023</p>
+                <p>2023 - 2024</p>
                 <p>Worked on front-end development projects and improved website performance by 30%.</p>
             </div>
         </div>
